@@ -1,0 +1,23 @@
+$border-color: #e6e6e6;
+$positive-color: #2c8041;
+$negative-color: #e40f0f;
+
+.stock-container {
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+
+    .name {
+        display: inline-block;
+        font-weight: 600;
+    }
+}
+
+.positive {
+    color: $positive-color;
+}
+
+.negative {
+    color: $negative-color;
+}
